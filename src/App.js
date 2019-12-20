@@ -75,6 +75,8 @@ class App extends React.Component {
                     country={this.state.country}
                     humidity={this.state.humidity}
                     description={this.state.description}
+                    snow={this.state.snow}
+                    clouds={this.state.clouds}
                     error={this.state.error}
                   />
                 </div>
