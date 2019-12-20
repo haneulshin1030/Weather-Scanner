@@ -17,7 +17,7 @@ class App extends React.Component {
     humidity: undefined,
     description: undefined,
     windspeed: undefined,
-    snow: undefined,
+    pressure: undefined,
     clouds: undefined,
     dt: undefined,
     error: undefined
@@ -84,7 +84,7 @@ class App extends React.Component {
                     humidity={this.state.humidity}
                     description={this.state.description}
                     windspeed={this.state.windspeed}
-                    snow={this.state.snow}
+                    pressure={this.state.pressure}
                     clouds={this.state.clouds}
                     dt={this.state.dt}
                     error={this.state.error}
