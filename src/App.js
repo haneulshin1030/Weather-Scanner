@@ -44,6 +44,10 @@ class App extends React.Component {
         country: response.sys.country,
         humidity: response.main.humidity,
         description: response.weather[0].description,
+        windspeed: response.wind.speed,
+        pressure: response.main.pressure,
+        clouds: response.clouds.all,
+        dt: response.dt,
         error: ""
       })
     }else{
